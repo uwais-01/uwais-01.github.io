@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Alex+Brush&family=Lobster&display=swap');
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #B0E0E6;
+}
+
+nav div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    left: 0;
+  }
+  
+  nav div ul li {
+    float: left;
+  }
+  
+  nav div ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav div ul li a:hover {
+    background-color: #111;
+  }
+
+  .big-hello {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 50px;
+  }
+
+  .paragraph-container {
+      width: 25%;
+      margin-left: 25%;
+  }
+
+  .paragraph {
+    font-family: 'Acme', sans-serif;
+    font-size: 25px;
+  }
+
+  .false {
+      font-family: monospace;
+      font-size: 20px;
+      margin: 5px;
+      background-color: #A9A9A9;
+  }
+
+  .contact-me a {
+      text-decoration: none;
+      color: black;
+  }
+
+  .contact-me a:hover {
+      text-decoration: underline;
+  }
+
+  .footer-child {
+      background-color: #696969;
+  }
+
+  .footer-card-1 {
+      display: inline-block;
+      padding: 5%;
+  }
+
+  .footer-card-1 div {
+      padding: 3px;
+  }
+
+  .footer-card-1 div a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .footer-card-1 div a:hover {
+      text-decoration: underline;
+  }
+
+  .github-icon {
+      display: inline-block;
+  }
+
+  .github-icon img a {
+      width: 32px;
+  }
+
+  .copyright {
+      display: inline-block;
+      margin-left: 10px;
+  }
+
+  .sorry {
+      margin-left: 25%;
+  }
+
+  .sorry div {
+      font-family: 'Alex Brush', cursive;
+      text-align: left;
+      font-size: 50px;
+  }
+
